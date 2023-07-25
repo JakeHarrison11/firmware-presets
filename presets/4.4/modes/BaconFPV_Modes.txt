@@ -1,0 +1,17 @@
+#$ TITLE: BaconFPV Modes Config
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: modes
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: modes
+#$ AUTHOR: BaconFPV (Jake Harrison)
+
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 1300 1700 0 0
+aux 2 13 2 1700 2100 0 0
+aux 3 35 1 1700 2100 0 0
+aux 4 36 3 1700 2100 0 0
+
+beacon RX_LOST
+beacon RX_SET
+
+set small_angle = 180
